@@ -1,0 +1,156 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration file="C:\Users\DiegoUlises\Desktop\Proyecto Residencias Profesionales IE\SistemasElctricosdePotencia.prj" location="C:\Users\DiegoUlises\Desktop\Proyecto Residencias Profesionales IE" name="SistemasElctricosdePotencia" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>SistemasElectricosDePotencia</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>Diego Villegas Govea</param.authnamewatermark>
+    <param.email>dgovea96@gmail.com</param.email>
+    <param.company>Instituto Tecnológico de Morelia</param.company>
+    <param.summary>Desarrollado por Diego Villegas Govea en enero del 2019, como Proyecto de Residencias Profesionales.</param.summary>
+    <param.description>Software para el cálculo de la eficiencia y regulación de voltaje para un transformador reductor, compensación de circuitos RL, RC, y medidor de armónicos. Nos permite analizar de manera rápida e intuitiva los parámetros y las gráficas de un Sistema Eléctrico De Potencia AC, a través del diseñador de aplicaciones de Matlab, App Designer.
+
+La aplicación desarrollada consta de una interfaz gráfica de usuario, código que realiza las acciones subyacentes y datos asociados de entrada al sistema. La idea del proyecto es empaquetar en un único archivo para distribuirse a otras personas, en tal caso a alumnos de la carrera de Ingeniería Eléctrica del Tecnológico Nacional de México.
+
+Diego Villegas Govea
+Estudiante del Tecnológico Nacional de México campus Morelia, de la carrera de  Ingeniería Eléctrica con especialidad en Sistemas Eléctricos de Potencia.</param.description>
+    <param.screenshot>${PROJECT_ROOT}\PUBLIC1.png</param.screenshot>
+    <param.guid />
+    <param.installpath.string>\Instituto Tecnológico de Morelia\SistemasElectricosDePotencia\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo>C:\Users\DiegoUlises\Pictures\img\PORTADA.png</param.logo>
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\SistemasElctricosdePotencia\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\SistemasElctricosdePotencia\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\SistemasElctricosdePotencia\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\SistemasElctricosdePotencia</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>false</param.web.mcr>
+    <param.package.mcr>true</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text />
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+      <param.help.text />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\SistemasElectricosDePotencia.mlapp</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\Dato1.png</file>
+      <file>${PROJECT_ROOT}\Dato2.png</file>
+      <file>${PROJECT_ROOT}\Dato3.png</file>
+      <file>${PROJECT_ROOT}\Dato4.png</file>
+      <file>${PROJECT_ROOT}\Dato5.png</file>
+      <file>${PROJECT_ROOT}\Dato6.png</file>
+      <file>${PROJECT_ROOT}\Logo Armonicos.jpeg</file>
+      <file>${PROJECT_ROOT}\Logo Compensacion.jpeg</file>
+      <file>${PROJECT_ROOT}\Logo Transformadores.jpeg</file>
+      <file>${PROJECT_ROOT}\PUBLIC1.png</file>
+      <file>${PROJECT_ROOT}\TEC 1.jpg</file>
+      <file>${PROJECT_ROOT}\TEC 2.jpeg</file>
+      <file>${PROJECT_ROOT}\TEC 3.jpeg</file>
+    </fileset.resources>
+    <fileset.package />
+    <fileset.depfun />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\SistemasElctricosdePotencia\for_testing" name="splash.png" optional="false">C:\Users\DiegoUlises\Desktop\Proyecto Residencias Profesionales IE\SistemasElctricosdePotencia\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\SistemasElctricosdePotencia\for_testing" name="readme.txt" optional="true">C:\Users\DiegoUlises\Desktop\Proyecto Residencias Profesionales IE\SistemasElctricosdePotencia\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\SistemasElctricosdePotencia\for_testing" name="SistemasElectricosDePotencia.exe" optional="false">C:\Users\DiegoUlises\Desktop\Proyecto Residencias Profesionales IE\SistemasElctricosdePotencia\for_testing\SistemasElectricosDePotencia.exe</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2017b</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabcoder" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="polyspacebugfinder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <polyspacebugfinder>
+          <enabled>true</enabled>
+        </polyspacebugfinder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
